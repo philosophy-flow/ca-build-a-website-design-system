@@ -21,6 +21,11 @@ section {
   margin: 10px 10%;
 }
 
+li {
+  list-style: square;
+  margin-left: 40px;
+  font-size: 14px;
+}
 
 /* COLORS */
 
@@ -97,4 +102,30 @@ section {
 
 #font2 {
  font-family: "Grandstander";
+}
+
+/* DISPLAY STYLES */
+
+.text p {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.text div {
+  margin: 20px 5px;
+}
+
+#h1-styles p {
+  font-weight: 800;
+  font-size: 26px;
+}
+
+#h2-styles p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#p-styles p {
+  font-weight: 400;
+  font-size: 14px;
 }
