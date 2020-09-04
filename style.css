@@ -1,0 +1,100 @@
+/* GENERAL */
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 10%;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 30px 0 30px 15px;
+  font-weight: bold;
+}
+section {
+  border: 1px solid black;
+  margin: 10px 10%;
+}
+
+
+/* COLORS */
+
+.colors div {
+  display: inline-block;
+  width: 30%;
+  margin: 10px 10px;
+  min-height: 100px;
+
+  text-align: center;
+}
+
+.colors p {
+  margin: 20px 0;
+}
+
+#red1 {
+  background-color: rgb(256, 0, 0);
+}
+
+#red2 {
+  background-color: rgb(255, 102, 102);
+}
+
+#green1 {
+  background-color: rgb(0, 256, 0);
+}
+
+#green2 {
+  background-color: rgb(76, 153, 0);
+  color: white;
+}
+
+#blue1 {
+  background-color: rgb(0, 0, 256);
+  color: white;
+}
+
+#blue2 {
+  background-color: rgb(153, 204, 255);
+}
+
+/* FONTS */
+
+.fonts div {
+  display: inline-block;
+  width: 45%;
+  margin: 10px 10px;
+  min-height: 100px;
+  padding: 5px;
+}
+
+.fonts h3 {
+  text-decoration: underline;
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.fonts p {
+  line-height: 1.8;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#font1 {
+  font-family: "Cantarell";
+}
+
+#font2 {
+ font-family: "Grandstander";
+}
